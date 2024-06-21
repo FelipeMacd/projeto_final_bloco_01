@@ -76,9 +76,9 @@ public abstract class Produto {
 		System.out.println("\n\n***********************************************************");
 		System.out.println("\t\tInformações do Produto:");
 		System.out.println("***********************************************************");
-		System.out.println("Nome do produto: " + this.nome);
-		System.out.println("Tipo: " + tipo);
-		System.out.println("Código: " + this.codProduto);
+		System.out.println("Nome do produto: " + this.getNome());
+		System.out.println("Tipo: " + this.getTipo());
+		System.out.println("Código: " + this.getCodProduto());
 		System.out.println("Preço: " + this.preco);
 		
 		

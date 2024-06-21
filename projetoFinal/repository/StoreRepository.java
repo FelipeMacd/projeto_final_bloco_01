@@ -2,16 +2,15 @@ package projetoFinal.repository;
 
 import projetoFinal.model.Produto;
 
-public interface EcommerceRepository {
+public interface StoreRepository {
 
 	
 		//CRUD DO E-COMMERC
 		public void cadastrar(Produto produto);
 		public void listarProdutos();
-		public void procurarPorTipo(int tipo);
+		public void procurarPorCodigo(int tipo);
 		public void atualizar(Produto produto);
-		public void deletar(Produto codigo);
+		public void deletar(int codigo);
 		
-		
-		public void venda();
+	
 }
